@@ -1,0 +1,37 @@
+<html>
+<meta charset="UTF-8">
+
+<head>
+<link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="WikiStyle.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>	
+<script type="text/javascript" src="Wiki.js"></script>
+<title>WikiDiver</title>
+</head>
+
+<body>
+<header>WikiDiver</header>
+
+<div  class="randomArticle">
+    <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
+    <img class="duckPic" src="http://images.clipartpanda.com/icon-clipart-115138-clip_art_clipart_coloring_book_colouring-555px.png" alt="rubber ducky"></a>
+    <p>Quack the duck for a 
+    <span style='color: purple'>r</span>
+    <span style='color:#FF6501'>a</span>
+    <span style='color:#FF00AA'>n</span>
+    <span style='color:#AA00FF'>d</span>
+    <span style='color:#00AAFF'>o</span>
+    <span style='color:red'>m</span>
+    article</p>
+</div>
+
+<div class="searchRegion">
+  <form>
+	<input id="searchBox" type="text" name="userTry" placeholder="eg: Duck">
+	<button type="button" id="searchButton" click="pressKey()">GO!</button>
+  </form>	
+</div>
+
+<div id="searchResults"></div>
+</body>
+</html>
